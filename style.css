@@ -1,0 +1,78 @@
+body{ 
+	background: #F7F7F8;
+	font-size: 16px;
+	color: rgb(40, 40, 40);
+    font-family: "Lora", serif;
+ }
+h1, h2? p{
+ 	font-family: "PT Serif", serif;
+ 	letter-spacing: 1px;
+ }
+h1{
+ 	color: #146C94;
+ 	font-size: 32px;
+ 	font-weight: bolder;
+ }
+ h2{
+ 	color: #19A7CE;
+ 	
+ 	font-size: 24px;
+ 	font-weight: 700;
+ }
+ a{
+ 	text-decoration: none;
+ 	font-weight: bolder;
+ 	color: #65C18C; 
+ }
+ 
+ #photo_visage { 
+  width: 150px;
+  height: 170px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 4px darkgrey;
+  }
+  #logos {
+  	font-size: 20px;
+  a:hover {
+  	color: #21AA93;
+  	font-size: 30px;
+   }
+  }
+  .block_formatting{
+   background-color: white;
+   border-radius: 4px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   width: 1000px;
+   margin: 20px auto;
+   padding: 10px;
+   text-align: center;
+  }
+
+  
+   @media(max-width: 760px ) {
+   .block_formatting{ 
+    width: 600px}
+   }
+   @media(max-width: 500px ) {
+   .block_formatting{ 
+    width: 400px}
+   }
+  #Discover_IESEG {
+   background-color: #65C18C;
+   border-radius: 4px;
+   padding: 10px 15px;
+   color: white;
+  }
+  #Discover_IESEG:hover {
+    font-size: 18px;
+  }
+  .list-horizontal{ 
+   list-style: none;
+   padding: 0px;
+   li{display: inline;
+   padding: 10px;} 
+   i{color: rgb(200, 200, 200);
+    font-size: 40px}
+    i:hover {color: rgb(150, 150, 150);}
+  }
+  #block1 p{ margin:30px }
